@@ -53,7 +53,7 @@ def get_article():
 
 
 def send_msg(msg):
-    url = 'https://eu132.chat-api.com/instance212600/sendMessage?token=bu9wjo4nsllzghdb'
+    url = 'https://eu132.chat-api.com/YOURINSTANCE/sendMessage?token=YOURTOKEN'
     data = {
       "phone": "7XXXXXXXXXX",
       "body": msg
