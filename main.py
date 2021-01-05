@@ -55,7 +55,7 @@ def get_article():
 def send_msg(msg):
     url = 'https://eu132.chat-api.com/instance212600/sendMessage?token=bu9wjo4nsllzghdb'
     data = {
-      "phone": "79289448720",
+      "phone": "7XXXXXXXXXX",
       "body": msg
     }
     res = requests.post(url, json=data)
